@@ -1,0 +1,63 @@
+<Wahl xsi:noNamespaceSchemaLocation="VML.xsd">
+	<Wahltag>12.12.2012</Wahltag>
+	<Wahlbeginn>12:12</Wahlbeginn>
+	<Wahlende>12:14</Wahlende>
+	<Parteien>
+		<Name>Die Menschen</Name>
+		<Kandidaten>
+			<Name>Huaba</Name>
+			<Erststimmen>2.02</Erststimmen>
+			<Geburtsdatum>1.1.1900</Geburtsdatum>
+			<Beruf>Huabara</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+		<Kandidaten>
+			<Name>Huaba</Name>
+			<Erststimmen>-2.02</Erststimmen>
+			<Geburtsdatum>1.1.1900</Geburtsdatum>
+			<Beruf>Huabara</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+		<Kandidaten>
+			<Name>Huaba</Name>
+			<Erststimmen>2.02</Erststimmen>
+			<Geburtsdatum>1.1.1900</Geburtsdatum>
+			<Beruf>Huabara</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+
+	</Parteien>
+	<Parteien>
+		<Name>Die Dummen</Name>
+		<Kandidaten>
+			<Name>Kevin</Name>
+			<Erststimmen>10.10</Erststimmen>
+			<Geburtsdatum>1.1.2000</Geburtsdatum>
+			<Beruf>Depp</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+		<Kandidaten>
+			<Name>Kevin</Name>
+			<Erststimmen>10.10</Erststimmen>
+			<Geburtsdatum>1.1.2000</Geburtsdatum>
+			<Beruf>Depp</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+		<Kandidaten>
+			<Name>Kevin</Name>
+			<Erststimmen>10.10</Erststimmen>
+			<Geburtsdatum>1.1.2000</Geburtsdatum>
+			<Beruf>Depp</Beruf>
+			<Listenplatz>1</Listenplatz>
+		</Kandidaten>
+	</Parteien>
+
+	<Wahlergebnis>
+		<Zweitstimmen name="Die Dummen">20</Zweitstimmen>
+		<Zweitstimmen name="Die Menschen">20.22</Zweitstimmen>
+	</Wahlergebnis>
+
+
+
+
+</Wahl>
