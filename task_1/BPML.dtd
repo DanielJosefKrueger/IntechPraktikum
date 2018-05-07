@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Diese DTD beschreibt den Aufbau der MarkUp Language zur Beschreibung von Tankstellenpreise -->
+<!ENTITY AT "&#x040;">
+<!ENTITY % StringElem "(#PCDATA)">
+<!ENTITY % StringAttr "CDATA">
+<!--<!ENTITY FOTO_j SYSTEM "JPEG" NDATA JPEG>
+<!ENTITY FOTO_g SYSTEM "GIF" NDATA GIF> -->
+<!ELEMENT Preisübersicht (Tankstelle+,Pächter+,Mineralölgesellschaft*,Option*)>
+<!ELEMENT Tankstelle (Name,Adresse,Geodaten*,Beschreibung*,Preise)>
+<!ATTLIST Tankstelle pächterID IDREF #REQUIRED>
+<!ATTLIST Tankstelle gesellschaftID IDREF #REQUIRED>
+<!ATTLIST Tankstelle bewertung (1|2|3|4|5|6) #IMPLIED>
+<!ATTLIST Tankstelle foto NOTATION (FOTO_j|FOTO_g) #IMPLIED>
+<!NOTATION FOTO_j SYSTEM "Foto">
+<!NOTATION FOTO_g SYSTEM "Gif">
+<!ELEMENT Name %StringElem;>
+<!ELEMENT Adresse %StringElem;>
+<!ELEMENT Geodaten (Längengrad,Breitengrad)>
+<!ELEMENT Längengrad %StringElem;>
+<!ELEMENT Breitengrad %StringElem;>
+<!ELEMENT Beschreibung %StringElem;>
+<!ELEMENT Preise (Preis+)>
+<!ELEMENT Preis %StringElem;>
+<!ATTLIST Preis kraftstoffart (E10|Super|Diesel|SuperPlus) #REQUIRED>
+<!ELEMENT Pächter (#PCDATA|Name|Adresse)*>
+<!ATTLIST Pächter pächterID ID #REQUIRED>
+<!ELEMENT Mineralölgesellschaft (Name,Adresse,Mailadresse)>
+<!ATTLIST Mineralölgesellschaft gesellschaftID ID #REQUIRED>
+<!ELEMENT Mailadresse %StringElem;>
+<!ELEMENT Option ANY>
+<!ATTLIST Preisübersicht datum %StringAttr; #REQUIRED>

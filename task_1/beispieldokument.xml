@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Dieses xml File stellt eine Preisübersicht dar für die Sprache BPML -->
+<!DOCTYPE Preisübersicht SYSTEM "BPML.dtd">
+<Preisübersicht datum="12.12.2012">
+  <Tankstelle pächterID="P12" gesellschaftID="M12" foto="FOTO_j">
+    <Name>Best Petorlium</Name>
+    <Adresse>Hinterdupfing 8; 85076 München</Adresse>
+    <Geodaten>
+      <Längengrad>66°43'12"</Längengrad>
+      <Breitengrad>66°43'12"</Breitengrad>
+    </Geodaten>
+    <Beschreibung>Sehr angenehme und ruhige Lage</Beschreibung>
+    <Preise>
+      <Preis kraftstoffart="E10">1.30</Preis>
+      <Preis kraftstoffart="Super">1.350</Preis>
+      <Preis kraftstoffart="Diesel">1.10</Preis>
+      <Preis kraftstoffart="SuperPlus">1.40</Preis>
+    </Preise>
+  </Tankstelle>
+  <Pächter pächterID="P12">
+    Groeßter Dieselhaendler Deutschlands <Name>Dagobert Diesel</Name> in <Adresse> Dagoberthausen 5</Adresse>
+  </Pächter>
+  <Mineralölgesellschaft gesellschaftID="M12">
+    <Name>Dagobert Oil</Name>
+    <Adresse>Dagobert Planet</Adresse>
+    <Mailadresse>dagobert.diesel&AT;vindiesel.de</Mailadresse>
+  </Mineralölgesellschaft>
+  <Option>
+    Hier passt alles reis, sogar eine Tankstelle (wenn man will)
+  </Option>
+</Preisübersicht>
